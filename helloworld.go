@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-// 主函数
+	"rsc.io/quote"
+)
+
 func main() {
-	name := "Go Developers"
-	fmt.Println("Azure for", name)
+	fmt.Println(quote.Hello())
 }
